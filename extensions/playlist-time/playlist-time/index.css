@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    padding: 10px;
+    font-family:sans-serif, Arial, Helvetica;
+    background-color:floralwhite;
+    min-width: 200px;
+}
+
+/*hello*/
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2.5px solid burlywood;
+    margin: 3px;
+}
+
+button {
+    background-color: dimgrey;
+    color: whitesmoke;
+    padding: 10px 20px;
+    font-weight: bold;
+    margin: 6px;
+}
+
+p {
+    color: darkred;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size: medium;
+    font-weight: bold;
+    padding: 0px 0px;
+}
+
+.div-tooltip {
+    opacity: 0;
+    position: fixed;
+    background: rgb(216, 247, 118);
+    color:rgb(1, 41, 3);
+    margin: 5px;
+    z-index: 99999;
+    border-radius: 3px;
+    border: 2.5px solid darkseagreen;
+    font-family: sans-serif, Arial, Helvetica;
+    font-size:small;
+    font-weight: bold;
+    white-space: pre-line;
+}
