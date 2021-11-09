@@ -1,0 +1,26 @@
+{
+    "name": "YT Current Video Url Loader",
+    "version": "0.1",
+    "manifest_version" : 2,
+    "description": "Copies YT video url with current time information and loads it in the address bar",
+    "background" : {
+      "scripts" : ["background.js"]
+    },
+    "browser_action": {
+      "default_icon": "icon.png"
+    },
+    "permissions": ["activeTab",  "tabs"],
+    "icons": {
+        "16" : "icon.png",
+        "32" : "icon.png",
+        "48" : "icon.png"
+    },
+    "content_scripts": [
+        {
+            "matches": [
+                "<all_urls>"
+            ],
+            "js": ["content.js"]    
+        }
+    ]
+  }
